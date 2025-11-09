@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Assignment - OUAHRANI Sofiane & BENSALLAH Younes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/main.js" type="module"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Notre Sampler</h1>
+
+    <div class="preset-loader">
+        <label for="presetSelect">Choisir un preset :</label>
+        <select id="presetSelect" name="presetSelect"></select>
+    </div>
+
+    <p>L'éditeur se charge après sélection.</p>
+
+    <div class="wrapper">
+        <canvas id="myCanvas" width=600 height=100></canvas>
+        <canvas id="myCanvasOverlay" width=600 height=100></canvas>
+    </div>
+
+    <div class="controls">
+        <button id="playButton" disabled=true>Play Sélection</button>
+        <button id="pauseButton" type="button">Pause</button>
+
+        <button id="loopButton" type="button">Loop</button>
+    </div>
+
+    <div id="sampler-pads">
+    </div>
+
+</div>
+
+</body>
+</html>
